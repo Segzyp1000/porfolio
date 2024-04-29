@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: hsl(261, 89%, 32%);
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .show {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
