@@ -55,7 +55,7 @@ const ContactPage = () => {
                       name="first-name"
                       id="first-name"
                       autocomplete="given-name"
-                      className="block w-full rounded-md border-0 py-1.5 bg-black text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/ sm:leading-6"
+                      className="block w-full rounded-md text-white border-0 py-1.5 bg-black  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-white focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/ sm:leading-6"
                     />
                   </div>
                 </div>
@@ -73,7 +73,7 @@ const ContactPage = () => {
                       name="last-name"
                       id="last-name"
                       autocomplete="family-name"
-                      className="block w-full bg-black rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                      className="block w-full bg-black rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -91,7 +91,7 @@ const ContactPage = () => {
                       name="email"
                       type="email"
                       autocomplete="email"
-                      className="block w-full rounded-md bg-black border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                      className="block w-full rounded-md bg-black border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
