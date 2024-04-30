@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
 
 const ContactPage = () => {
   return (
@@ -11,7 +14,27 @@ const ContactPage = () => {
           touch shortly to discuss how my skills and expertise can support your
           goals
         </p>
+        <div className="flex flex-col">
+          <h1 className=" mt-10 text-2xl font-bold text-darkBlue">
+            Social Links
+          </h1>
+          <div className="flex space-x-5 justify-center">
+            <Link
+              to="https://github.com/Segzyp1000"
+              className="text-white mt-10"
+            >
+              <FaGithub />
+            </Link>
+            <Link
+              to="https://github.com/Segzyp1000"
+              className="text-white mt-10"
+            >
+              <FaLinkedinIn />
+            </Link>
+          </div>
+        </div>
       </div>
+
       <div>
         <form action="https://formspree.io/f/mjvnkeqy" method="post">
           <div className="space-y-12 bg-black p-4 mx-12 mt-10 rounded">
