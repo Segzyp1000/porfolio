@@ -11,7 +11,7 @@ const ProjectPage = () => {
         Projects
         <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
           <a
-            href="https://segzyp1000.github.io/loansite/"
+            href="https://dariola-banana-bread.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
