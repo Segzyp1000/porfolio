@@ -26,7 +26,7 @@ const ProjectPage = () => {
             <div className="flex gap-2">
               <a
                 href="https://dariola-banana-bread.vercel.app/"
-                className="bg-white text-bgBackground rounded p-2 mt-3"
+                className="bg-white text-bgBackground rounded p-2 mt-3 hover:bg-zinc-500"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -34,7 +34,7 @@ const ProjectPage = () => {
               </a>
               <a
                 href="https://github.com/Segzyp1000/dariolaBananaBread"
-                className="bg-bgBackground text-white rounded p-2 mt-3"
+                className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -62,7 +62,7 @@ const ProjectPage = () => {
                 href="https://logisticstransport.onrender.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-bgBackground rounded p-2 mt-3"
+                className="bg-white text-bgBackground rounded p-2 mt-3 hover:bg-zinc-500"
               >
                 Preview
               </a>
@@ -70,7 +70,7 @@ const ProjectPage = () => {
                 href="https://github.com/Segzyp1000/logisticstra/tree/main/build"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-bgBackground text-white rounded p-2 mt-3"
+                className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
               >
                 View code
               </a>
@@ -94,7 +94,7 @@ const ProjectPage = () => {
             <div className="flex gap-2">
               <a
                 href="https://segzyp1000.github.io/loansite"
-                className="bg-white text-bgBackground rounded p-2 mt-3"
+                className="bg-white text-bgBackground rounded p-2 mt-3 hover:bg-zinc-500"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -102,7 +102,7 @@ const ProjectPage = () => {
               </a>
               <a
                 href="https://segzyp1000.github.io/loansite"
-                className="bg-bgBackground text-white rounded p-2 mt-3"
+                className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -130,7 +130,7 @@ const ProjectPage = () => {
                 href="https://segzyp1000.github.io/hngtask2/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-bgBackground rounded p-2 mt-3"
+                className="bg-white text-bgBackground rounded p-2 mt-3 hover:bg-zinc-500"
               >
                 Preview
               </a>
@@ -138,7 +138,7 @@ const ProjectPage = () => {
                 href="https://github.com/Segzyp1000/hngtask2"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-bgBackground text-white rounded p-2 mt-3"
+                className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
               >
                 View code
               </a>

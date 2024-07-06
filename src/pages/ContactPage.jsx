@@ -114,7 +114,7 @@ const ContactPage = () => {
 
                 <div className="sm:col-span-4">
                   <div className="mt-2">
-                    <button className="block w-full bg-blue-700 rounded-md border-0 p-1.5 text-white font-bold">
+                    <button className="block w-full bg-blue-700 rounded-md border-0 p-1.5 text-white font-bold hover:bg-zinc-500">
                       Send Message
                     </button>
                   </div>
