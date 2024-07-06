@@ -26,11 +26,11 @@ const ProjectPage = () => {
             <div className="flex gap-2">
               <a
                 href="https://dariola-banana-bread.vercel.app/"
-                className="bg-white text-black rounded p-1 mt-3"
+                className="bg-white text-bgBackground rounded p-1 mt-3"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Preview
+                Preview website
               </a>
               <a
                 href="https://github.com/Segzyp1000/dariolaBananaBread"
@@ -62,9 +62,9 @@ const ProjectPage = () => {
                 href="https://logisticstransport.onrender.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-black rounded p-1 mt-3"
+                className="bg-white text-bgBackground rounded p-1 mt-3"
               >
-                Preview
+                Preview website
               </a>
               <a
                 href="https://github.com/Segzyp1000/logisticstra/tree/main/build"
@@ -94,11 +94,11 @@ const ProjectPage = () => {
             <div className="flex gap-2">
               <a
                 href="https://segzyp1000.github.io/loansite"
-                className="bg-white text-black rounded p-1 mt-3"
+                className="bg-white text-bgBackground rounded p-1 mt-3"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Preview
+                Preview website
               </a>
               <a
                 href="https://segzyp1000.github.io/loansite"
@@ -130,9 +130,9 @@ const ProjectPage = () => {
                 href="https://segzyp1000.github.io/hngtask2/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-black rounded p-1 mt-3"
+                className="bg-white text-bgBackground rounded p-1 mt-3"
               >
-                Preview
+                Preview website
               </a>
               <a
                 href="https://github.com/Segzyp1000/hngtask2"
