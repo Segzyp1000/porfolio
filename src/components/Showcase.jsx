@@ -12,11 +12,13 @@ const Showcase = () => {
           intuitive, inclusive, and delightful digital solutions that users love
           and remember.
         </p>
-        <div className="mt-10 bg-blue-500 text-white rounded-lg p-3 font-extrabold hover:bg-black">
-          <a href="https://drive.google.com/file/d/1vfQFM1Xdf_cd6Qf2p004iBPWauliVyVQ/view">
-            Download Resume
-          </a>
-        </div>
+
+        <a
+          href="https://drive.google.com/file/d/1vfQFM1Xdf_cd6Qf2p004iBPWauliVyVQ/view"
+          className="mt-10 bg-blue-500 text-white rounded-lg p-3 font-extrabold hover:bg-black"
+        >
+          Download Resume
+        </a>
 
         <div className="flex flex-col mt-10 justify-center items-center">
           <h1 className="text-4xl font-bold">TechStack</h1>
