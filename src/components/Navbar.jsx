@@ -15,10 +15,16 @@ const Navbar = () => {
           Segun
         </h1>
       </div>
-      <div className="hidden space-x-4 text-darkBlue font-bold md:flex">
-        <Link to="/">Home</Link>
-        <Link to="/project">Projects</Link>
-        <Link to="/contact">Contact</Link>
+      <div className="hidden space-x-4 text-darkBlue font-bold md:flex ">
+        <Link to="/" className="hover:text-slate-50">
+          Home
+        </Link>
+        <Link to="/project" className="hover:text-slate-50">
+          Projects
+        </Link>
+        <Link to="/contact" className="hover:text-slate-50">
+          Contact
+        </Link>
       </div>
       <div className="md:hidden">
         <button
