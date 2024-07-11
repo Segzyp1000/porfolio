@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 
+
 const ContactPage = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 mt-20 ">

@@ -12,10 +12,9 @@ const Showcase = () => {
           intuitive, inclusive, and delightful digital solutions that users love
           and remember.
         </p>
-
         <a
           href="https://drive.google.com/file/d/1vfQFM1Xdf_cd6Qf2p004iBPWauliVyVQ/view"
-          className="mt-10 bg-blue-500 text-white rounded-lg p-3 font-extrabold hover:bg-black"
+          className="mt-10 bg-blue-500 text-white rounded-lg p-3 font-extrabold hover:bg-black m-0"
         >
           Download Resume
         </a>

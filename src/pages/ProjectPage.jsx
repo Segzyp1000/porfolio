@@ -3,12 +3,51 @@ import Project0 from "../assets/project11.png";
 import Project1 from "../assets/Project1.png";
 import Project2 from "../assets/Project2.png";
 import Project3 from "../assets/Project3.jpg";
+import Projec from "../assets/timbo-shop.png";
 
 const ProjectPage = () => {
   return (
     <div>
       <div className="h1 text-4xl font-bold flex flex-col justify-center items-center text-darkBlue mt-20 p-4">
         Projects
+        <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
+          <a
+            href="https://timbo-shop.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Projec} alt="" />
+          </a>
+          <div className="flex flex-col items-center w-1/2 mt-5">
+            <p>
+              Developed a fully responsive e-commerce website, ensuring seamless
+              user experiences across various devices and screen sizes. Utilized
+              state management techniques to efficiently manage the React
+              application, and leveraged Tailwind CSS to implement a consistent
+              and modern design language. By combining these technologies, I
+              created a fast, scalable, and user-friendly online shopping
+              platform
+            </p>
+            <div className="flex gap-2">
+              <a
+                href="https://timbo-shop.vercel.app/"
+                className="bg-white text-bgBackground rounded p-2 mt-3 hover:bg-zinc-500"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Preview
+              </a>
+              <a
+                href="https://github.com/Segzyp1000/timbo-shop/tree/main/src"
+                className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View code
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
           <a
             href="https://dariola-banana-bread.vercel.app/"
