@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 
-
 const ContactPage = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 mt-20 ">
@@ -40,13 +39,13 @@ const ContactPage = () => {
 
       <div>
         <form action="https://formspree.io/f/mjvnkeqy" method="post">
-          <div className="space-y-12 bg-black p-4 mx-12 mt-10 rounded">
+          <div className="space-y-12 bg-white p-4 mx-12 mt-10 rounded">
             <div className="border-b border-gray-900/10 pb-12">
               <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                 <div className="sm:col-span-3">
                   <label
                     for="first-name"
-                    className="block text-sm font-medium leading-6 text-white"
+                    className="block text-sm font-medium leading-6 text-black"
                   >
                     First name
                   </label>
@@ -56,7 +55,7 @@ const ContactPage = () => {
                       name="first-name"
                       id="first-name"
                       autocomplete="given-name"
-                      className="block w-full rounded-md text-white border-0 py-1.5 bg-black  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-white focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/ sm:leading-6"
+                      className="block w-full rounded-md text-black border-0 py-1.5 bg-white  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-white focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/ sm:leading-6"
                     />
                   </div>
                 </div>
@@ -64,7 +63,7 @@ const ContactPage = () => {
                 <div className="sm:col-span-3">
                   <label
                     for="last-name"
-                    className="block text-sm font-medium leading-6 text-white"
+                    className="block text-sm font-medium leading-6 text-black"
                   >
                     Last name
                   </label>
@@ -74,7 +73,7 @@ const ContactPage = () => {
                       name="last-name"
                       id="last-name"
                       autocomplete="family-name"
-                      className="block w-full bg-black rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                      className="block w-full bg-white rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -82,7 +81,7 @@ const ContactPage = () => {
                 <div className="sm:col-span-4">
                   <label
                     for="email"
-                    className="block text-sm font-medium leading-6 text-white"
+                    className="block text-sm font-medium leading-6 text-black"
                   >
                     Email address
                   </label>
@@ -92,14 +91,14 @@ const ContactPage = () => {
                       name="email"
                       type="email"
                       autocomplete="email"
-                      className="block w-full rounded-md bg-black border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                      className="block w-full rounded-md bg-white border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
                 <div className="col-span-full">
                   <label
                     for="about"
-                    className="block text-sm font-medium leading-6 text-white"
+                    className="block text-sm font-medium leading-6 text-black"
                   >
                     Tell us about your project
                   </label>
@@ -108,14 +107,14 @@ const ContactPage = () => {
                       id="message"
                       name="message"
                       rows="3"
-                      className="block w-full  bg-black rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-white focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                      className="block w-full  bg-white rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-white focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     ></textarea>
                   </div>
                 </div>
 
                 <div className="sm:col-span-4">
                   <div className="mt-2">
-                    <button className="block w-full bg-blue-700 rounded-md border-0 p-1.5 text-white font-bold hover:bg-zinc-500">
+                    <button className="block max-w-full bg-blue-700 rounded-md border-0 p-1.5 text-white font-bold hover:bg-zinc-500">
                       Send Message
                     </button>
                   </div>
