@@ -118,40 +118,6 @@ const ProjectPage = () => {
         </div>
         <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
           <a
-            href="https://segzyp1000.github.io/loansite/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={Project1} alt="" />
-          </a>
-          <div className="flex flex-col items-center w-1/2 mt-5">
-            <p>
-              Built a loan website replica using React, JavaScript, HTML, CSS,
-              and Bootstrap, demonstrating my skills in creating responsive and
-              dynamic web applications
-            </p>
-            <div className="flex gap-2">
-              <a
-                href="https://segzyp1000.github.io/loansite"
-                className="bg-white text-bgBackground rounded p-2 mt-3 hover:bg-zinc-500"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Preview
-              </a>
-              <a
-                href="https://segzyp1000.github.io/loansite"
-                className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View code
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
-          <a
             href="https://segzyp1000.github.io/hngtask2/"
             target="_blank"
             rel="noopener noreferrer"
