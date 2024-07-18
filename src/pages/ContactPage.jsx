@@ -39,13 +39,13 @@ const ContactPage = () => {
 
       <div>
         <form action="https://formspree.io/f/mjvnkeqy" method="post">
-          <div className="space-y-12 bg-white p-4 mx-12 mt-10 rounded">
+          <div className="space-y-12 p-4 mx-12 mt-10 rounded">
             <div className="border-b border-gray-900/10 pb-12">
               <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                 <div className="sm:col-span-3">
                   <label
                     for="first-name"
-                    className="block text-sm font-medium leading-6 text-black"
+                    className="block text-sm font-bold leading-6 text-white"
                   >
                     First name
                   </label>
@@ -63,7 +63,7 @@ const ContactPage = () => {
                 <div className="sm:col-span-3">
                   <label
                     for="last-name"
-                    className="block text-sm font-medium leading-6 text-black"
+                    className="block text-sm font-bold leading-6 text-white "
                   >
                     Last name
                   </label>
@@ -81,7 +81,7 @@ const ContactPage = () => {
                 <div className="sm:col-span-4">
                   <label
                     for="email"
-                    className="block text-sm font-medium leading-6 text-black"
+                    className="block text-sm font-bold leading-6 text-white"
                   >
                     Email address
                   </label>
@@ -98,7 +98,7 @@ const ContactPage = () => {
                 <div className="col-span-full">
                   <label
                     for="about"
-                    className="block text-sm font-medium leading-6 text-black"
+                    className="block text-sm font-bold leading-6 text-white"
                   >
                     Tell us about your project
                   </label>
