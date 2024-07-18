@@ -48,6 +48,7 @@ const ProjectPage = () => {
             </div>
           </div>
         </div>
+        <div className="separator"></div>
         <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
           <a
             href="https://dariola-banana-bread.vercel.app/"
@@ -82,6 +83,7 @@ const ProjectPage = () => {
             </div>
           </div>
         </div>
+        <div className="separator"></div>
         <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
           <a
             href="https://logisticstransport.onrender.com/"
@@ -116,6 +118,7 @@ const ProjectPage = () => {
             </div>
           </div>
         </div>
+        <div className="separator"></div>
         <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
           <a
             href="https://segzyp1000.github.io/hngtask2/"
