@@ -3,7 +3,7 @@ import segz from "../assets/segz.png";
 
 const Showcase = () => {
   return (
-    <main className="show grid grid-cols-1 md:grid-cols-2 gap-4 p-6 mt-20 ml-10 ">
+    <main className="show grid grid-cols-1 md:grid-cols-2 gap-4 p-6 mt-20 ml-0 md:ml-10 ">
       <div className=" flex flex-col text-darkBlue">
         <h1 className="text-4xl font-bold">Frontend Developer</h1>
         <p className="max-w-full mt-10  font-semibold">
