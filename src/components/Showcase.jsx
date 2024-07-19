@@ -3,8 +3,8 @@ import segz from "../assets/segz.png";
 
 const Showcase = () => {
   return (
-    <main className="show grid grid-cols-1 md:grid-cols-2 gap-4 p-6 mt-20 ">
-      <div className=" flex flex-col text-darkBlue items-center justify-center">
+    <main className="show grid grid-cols-1 md:grid-cols-2 gap-4 p-6 mt-20 ml-10 ">
+      <div className=" flex flex-col text-darkBlue">
         <h1 className="text-4xl font-bold">Frontend Developer</h1>
         <p className="max-w-full mt-10  font-semibold">
           I craft exceptional web applications that prioritize accessibility,
@@ -13,30 +13,22 @@ const Showcase = () => {
           and remember.
         </p>
 
-        <div className="flex flex-col mt-10 justify-center items-center">
+        <div className="flex flex-col mt-10 ">
           <h1 className="text-4xl font-bold">TechStack</h1>
-          <div className="text-black max-w-full mx-0 space-x-6 space-y-6">
-            <button className=" bg-colorButton rounded font-bold  p-3">
-              HTML
-            </button>
-            <button className=" bg-colorButton rounded font-bold  p-3">
-              CSS
-            </button>
-            <button className=" bg-colorButton rounded font-bold  p-3">
-              JavaScript
-            </button>
-            <button className=" bg-colorButton rounded font-bold  p-3">
-              Bootstrap
-            </button>
-            <button className=" bg-colorButton rounded font-bold  p-3">
-              Tailwind
-            </button>
-            <button className=" bg-colorButton rounded font-bold  p-3">
-              Git & Github
-            </button>
-            <button className=" bg-colorButton rounded font-bold  p-3">
-              React
-            </button>
+          <div className="text-white mx-0 space-x-6 space-y-6 mt-6">
+            <div className="flex">
+              <li className="font-bold  p-2">HTML</li>
+              <li className="font-bold  p-2">CSS</li>
+              <li className="font-bold  p-2">Bootstrap</li>
+              <li className="font-bold  p-2">Tailwind</li>
+            </div>
+            <div className="separator2"></div>
+            <div className="mt-4 flex">
+              <li className="font-bold  p-2">JavaScript</li>
+              <li className="font-bold  p-2">React</li>
+              <li className="font-bold  p-2">Git</li>
+              <li className="font-bold  p-2">Github</li>
+            </div>
           </div>
         </div>
       </div>
