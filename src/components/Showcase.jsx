@@ -15,7 +15,7 @@ const Showcase = () => {
 
         <div className="flex flex-col mt-10 ">
           <h1 className="text-4xl font-bold">TechStack</h1>
-          <div className="text-white mx-0 space-x-6 space-y-6 mt-6">
+          <div className="text-white mx-0 space-x-0 mt-6">
             <div className="flex">
               <li className="font-bold  p-2">HTML</li>
               <li className="font-bold  p-2">CSS</li>
