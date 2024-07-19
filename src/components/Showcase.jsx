@@ -15,24 +15,26 @@ const Showcase = () => {
 
         <div className="flex flex-col mt-10 justify-center items-center">
           <h1 className="text-4xl font-bold">TechStack</h1>
-          <div className="text-white max-w-full mx-0 space-x-6 space-y-6">
-            <button className=" bg-blue-500 rounded font-bold  p-3">
+          <div className="text-black max-w-full mx-0 space-x-6 space-y-6">
+            <button className=" bg-colorButton rounded font-bold  p-3">
               HTML
             </button>
-            <button className=" bg-blue-500 rounded font-bold  p-3">CSS</button>
-            <button className=" bg-blue-500 rounded font-bold  p-3">
+            <button className=" bg-colorButton rounded font-bold  p-3">
+              CSS
+            </button>
+            <button className=" bg-colorButton rounded font-bold  p-3">
               JavaScript
             </button>
-            <button className=" bg-blue-500 rounded font-bold  p-3">
+            <button className=" bg-colorButton rounded font-bold  p-3">
               Bootstrap
             </button>
-            <button className=" bg-blue-500 rounded font-bold  p-3">
+            <button className=" bg-colorButton rounded font-bold  p-3">
               Tailwind
             </button>
-            <button className=" bg-blue-500 rounded font-bold  p-3">
+            <button className=" bg-colorButton rounded font-bold  p-3">
               Git & Github
             </button>
-            <button className=" bg-blue-500 rounded font-bold  p-3">
+            <button className=" bg-colorButton rounded font-bold  p-3">
               React
             </button>
           </div>
