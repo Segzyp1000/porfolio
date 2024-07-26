@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 const ContactPage = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 mt-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 mt-20">
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-4xl font-bold text-white">Contact</h1>
         <p className="text-white font-medium w-3/4">

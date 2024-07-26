@@ -7,9 +7,9 @@ import Projec from "../assets/timbo-shop.png";
 
 const ProjectPage = () => {
   return (
-    <div>
-      <div className="bg-white text-4xl font-bold flex flex-col justify-center items-center text-black mt-5 p-4">
-        Projects
+    <div className="bg-white text-4xl  text-black mt-2 p-4">
+      <div className="mt-20 flex flex-col justify-center items-center text-center ">
+        <h1 className="font-bold">Projects</h1>
         <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
           <a
             href="https://timbo-shop.vercel.app/"
