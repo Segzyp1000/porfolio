@@ -1,5 +1,5 @@
 import React from "react";
-import segz from "../assets/segz.png";
+import segz from "../assets/segx.png";
 
 const Showcase = () => {
   return (
@@ -34,7 +34,7 @@ const Showcase = () => {
       </div>
 
       <div className="flex mdmx-3 p-5 max-w-full h-full justify-center items-center">
-        <img src={segz} alt="" />
+        <img src={segz} alt="" className="w-[321px]" />
       </div>
     </main>
   );

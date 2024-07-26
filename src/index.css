@@ -4,7 +4,6 @@
 
 body {
   background-color: #0C4A60;
-  height: auto;
 }
 
 .separator {
@@ -14,7 +13,7 @@ body {
   left: 0;
   width: 75%;
   height: 1px;
-  background-color: rgb(114, 255, 255);
+  background-color:  #0C4A60;
 }
 
 .separator2 {
@@ -24,7 +23,7 @@ body {
   left: 0;
   width: auto;
   height: 1px;
-  background-color: rgb(114, 255, 255);
+  background-color: #ddd;
 }
 
 

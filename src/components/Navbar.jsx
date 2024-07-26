@@ -9,13 +9,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between mx-4 p-2 md:flex-row md:items-center md:space-x-2">
+    <nav className="flex justify-between mx-4 p-2  md:flex-row md:items-center">
       <div className="flex space-x-2">
         <h1 className="text-4xl text-darkBlue font-bold from-neutral-900">
           Segun
         </h1>
       </div>
-      <div className="hidden space-x-4 text-darkBlue font-bold md:flex ">
+      <div className="hidden space-x-4 text-darkBlue font-bold md:flex">
         <Link to="/" className="hover:text-slate-50">
           Home
         </Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
         </button>
       </div>
       {menuOpen && (
-        <div className="md:hidden flex flex-col space-y-4 text-darkBlue font-bold">
+        <div className="md:hidden flex flex-col space-y-5 text-white font-bold">
           <Link to="/" onClick={toggleMenu}>
             Home
           </Link>

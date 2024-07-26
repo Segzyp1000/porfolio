@@ -8,7 +8,7 @@ import Projec from "../assets/timbo-shop.png";
 const ProjectPage = () => {
   return (
     <div>
-      <div className="h1 text-4xl font-bold flex flex-col justify-center items-center text-darkBlue mt-20 p-4">
+      <div className="bg-white text-4xl font-bold flex flex-col justify-center items-center text-black mt-5 p-4">
         Projects
         <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
           <a
@@ -19,7 +19,7 @@ const ProjectPage = () => {
             <img src={Projec} alt="" />
           </a>
           <div className="flex flex-col items-center w-1/2 mt-5">
-            <p>
+            <p className="text-black">
               Developed a fully responsive e-commerce website, ensuring seamless
               user experiences across various devices and screen sizes. Utilized
               state management techniques to efficiently manage the React
@@ -49,7 +49,7 @@ const ProjectPage = () => {
           </div>
         </div>
         <div className="separator"></div>
-        <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
+        <div className="mt-10 flex flex-wrap justify-center items-center  text-sm space-x-2">
           <a
             href="https://dariola-banana-bread.vercel.app/"
             target="_blank"
@@ -58,7 +58,7 @@ const ProjectPage = () => {
             <img src={Project0} alt="" />
           </a>
           <div className="flex flex-col items-center w-1/2 mt-5">
-            <p>
+            <p className="text-black">
               Designed and developed a responsive banana bread ordering website,
               implementing Context API for efficient state management and
               ensuring a smooth user interface
@@ -93,7 +93,7 @@ const ProjectPage = () => {
             <img src={Project3} alt="" />
           </a>
           <div className="flex flex-col justify-center items-center w-1/2 mt-5">
-            <p>
+            <p className="text-black">
               Developed a transport logistics website replica with Tailwind,
               HTML, CSS, and JavaScript, demonstrating my skills in building
               responsive, dynamic, and modern web applications
@@ -128,7 +128,7 @@ const ProjectPage = () => {
             <img src={Project2} className="imgg" alt="" />
           </a>
           <div className="flex flex-col items-center w-1/2 mt-5">
-            <p>
+            <p className="text-black">
               Created a data-driven movie website using React, JavaScript, HTML,
               and CSS, demonstrating my skills in building responsive and
               dynamic web applications with a focus on data visualization.

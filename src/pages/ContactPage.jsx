@@ -5,9 +5,9 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 const ContactPage = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 mt-14">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 mt-5">
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-4xl font-bold text-darkBlue">Contact</h1>
+        <h1 className="text-4xl font-bold text-white">Contact</h1>
         <p className="text-white font-medium w-3/4">
           Interested in learning more about my projects and how we can
           collaborate? Please share your details in the form, and I'll be in
@@ -15,7 +15,7 @@ const ContactPage = () => {
           goals
         </p>
         <div className="flex flex-col mt-10">
-          <h1 className="text-2xl font-bold text-darkBlue">Social Links</h1>
+          <h1 className="text-2xl font-bold text-white">Social Links</h1>
           <div className="flex space-x-5 justify-center">
             <Link
               to="https://github.com/Segzyp1000"
@@ -63,7 +63,7 @@ const ContactPage = () => {
                 <div className="sm:col-span-3">
                   <label
                     for="last-name"
-                    className="block text-sm font-bold leading-6 text-white "
+                    className="block text-sm font-bold leading-6 text-white"
                   >
                     Last name
                   </label>

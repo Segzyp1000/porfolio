@@ -16,7 +16,8 @@ export default {
       colors: {
         darkBlue: "rgb(114, 255, 255)",
         bgBackground:  "rgb(0, 123, 255)",
-        colorButton: "#E1DDDB"
+        colorButton: "#E1DDDB",
+        navColor: "#0C4A60"
       },
     },
   },
