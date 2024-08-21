@@ -26,7 +26,7 @@ const Navbar = () => {
           Contact
         </Link>
         <a
-          href="https://drive.google.com/file/d/1vfQFM1Xdf_cd6Qf2p004iBPWauliVyVQ/view"
+          href="https://drive.google.com/file/d/1iSCam2_dhoojFdXUJPfdGbuBFCmOCiZw/view?usp=drive_link"
           className="text-white bg-blue-500 px-2 rounded-lg hover:bg-slate-400"
           target="_blank"
           rel="noopener noreferrer"
