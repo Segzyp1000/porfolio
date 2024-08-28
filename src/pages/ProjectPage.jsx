@@ -4,12 +4,52 @@ import Project2 from "../assets/Project2.png";
 import Project3 from "../assets/Project3.jpg";
 import Projec from "../assets/timbo-shop.png";
 import Project4 from "../assets/project4.png";
+import Barb from "../assets/Barb-show.png";
 
 const ProjectPage = () => {
   return (
     <div className="bg-white text-4xl  text-black mt-2 p-4">
       <div className="mt-20 flex flex-col justify-center items-center text-center ">
         <h1 className="font-bold">Projects</h1>
+        <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
+          <a
+            href="https://seg-barb-show-8myq.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Barb} alt="" className="w-[323px" />
+          </a>
+          <div className="flex flex-col items-center w-1/2 mt-5">
+            <p className="text-black">
+              Developed a fully responsive e-commerce website, ensuring seamless
+              user experiences across various devices and screen sizes. Utilized
+              state management techniques to efficiently manage the React
+              application, and leveraged Tailwind CSS to implement a consistent
+              and modern design language. By combining these technologies, I
+              created a fast, scalable, and user-friendly online shopping
+              platform
+            </p>
+            <div className="flex gap-2">
+              <a
+                href="https://seg-barb-show-8myq.vercel.app/"
+                className="bg-white text-bgBackground rounded p-2 mt-3 hover:bg-zinc-500"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Preview
+              </a>
+              <a
+                href="https://github.com/Segzyp1000/barb-show"
+                className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="separator"></div>
         <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
           <a
             href="https://timbo-shop.vercel.app/"
@@ -86,7 +126,7 @@ const ProjectPage = () => {
         <div className="separator"></div>
         <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
           <a
-            href="https://logisticstransport.onrender.com/"
+            href="https://trans-flows.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -100,7 +140,7 @@ const ProjectPage = () => {
             </p>
             <div className="flex gap-2">
               <a
-                href="https://logisticstransport.onrender.com/"
+                href="https://trans-flows.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-bgBackground rounded p-2 mt-3 hover:bg-zinc-500"
@@ -108,7 +148,7 @@ const ProjectPage = () => {
                 Preview
               </a>
               <a
-                href="https://github.com/Segzyp1000/logisticstra"
+                href="https://github.com/Segzyp1000/transFlows"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
