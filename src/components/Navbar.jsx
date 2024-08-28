@@ -11,14 +11,13 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between mx-4 p-2  md:flex-row md:items-center">
       <div className="flex space-x-2">
-        <h1 className="text-4xl text-darkBlue font-bold from-neutral-900">
-          Segun
-        </h1>
+        <Link to="/">
+          <h1 className="text-4xl text-darkBlue font-bold from-neutral-900">
+            Segun
+          </h1>
+        </Link>
       </div>
       <div className="hidden space-x-4 text-darkBlue font-bold md:flex">
-        <Link to="/" className="hover:text-slate-50">
-          Home
-        </Link>
         <Link to="/project" className="hover:text-slate-50">
           Projects
         </Link>
@@ -65,9 +64,6 @@ const Navbar = () => {
       </div>
       {menuOpen && (
         <div className="md:hidden flex flex-col space-y-5 text-white font-bold">
-          <Link to="/" onClick={toggleMenu}>
-            Home
-          </Link>
           <Link to="/project" onClick={toggleMenu}>
             Projects
           </Link>
