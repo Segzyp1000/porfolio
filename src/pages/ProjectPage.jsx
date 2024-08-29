@@ -21,13 +21,14 @@ const ProjectPage = () => {
           </a>
           <div className="flex flex-col items-center w-1/2 mt-5">
             <p className="text-black">
-              Developed a fully responsive e-commerce website, ensuring seamless
-              user experiences across various devices and screen sizes. Utilized
-              state management techniques to efficiently manage the React
-              application, and leveraged Tailwind CSS to implement a consistent
-              and modern design language. By combining these technologies, I
-              created a fast, scalable, and user-friendly online shopping
-              platform
+              I conceptualized and developed a cutting-edge shoe e-commerce
+              platform, featuring a robust search functionality, advanced
+              filtering capabilities, secure user authentication and
+              registration processes powered by Firebase and Firestore,
+              efficient state management, and a visually stunning design
+              language leveraging React and Tailwind CSS, while also
+              incorporating essential administrative tools and an informative
+              'About Us' page to foster a seamless and engaging user experience.
             </p>
             <div className="flex gap-2">
               <a
@@ -40,6 +41,42 @@ const ProjectPage = () => {
               </a>
               <a
                 href="https://github.com/Segzyp1000/barb-show"
+                className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="separator"></div>
+        <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
+          <a
+            href="https://segun-olowoyeye-lendsqr-fe-test.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Project4} alt="" />
+          </a>
+          <div className="flex flex-col items-center w-1/2 mt-5">
+            <p className="text-black">
+              "Built a replica of the Lendsqr dashboard website using React and
+              TypeScript, with styling achieved through SCSS. Additionally,
+              implemented pagination functionality utilizing React Router Dom,
+              enhancing the user experience through seamless navigation."
+            </p>
+            <div className="flex gap-2">
+              <a
+                href="https://segun-olowoyeye-lendsqr-fe-test.vercel.app/"
+                className="bg-white text-bgBackground rounded p-2 mt-3 hover:bg-zinc-500"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Preview
+              </a>
+              <a
+                href="https://github.com/Segzyp1000/lendsqr-fe-test"
                 className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -187,42 +224,6 @@ const ProjectPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
-              >
-                View code
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="separator"></div>
-        <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
-          <a
-            href="https://segun-olowoyeye-lendsqr-fe-test.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={Project4} alt="" />
-          </a>
-          <div className="flex flex-col items-center w-1/2 mt-5">
-            <p className="text-black">
-              "Built a replica of the Lendsqr dashboard website using React and
-              TypeScript, with styling achieved through SCSS. Additionally,
-              implemented pagination functionality utilizing React Router Dom,
-              enhancing the user experience through seamless navigation."
-            </p>
-            <div className="flex gap-2">
-              <a
-                href="https://segun-olowoyeye-lendsqr-fe-test.vercel.app/"
-                className="bg-white text-bgBackground rounded p-2 mt-3 hover:bg-zinc-500"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Preview
-              </a>
-              <a
-                href="https://github.com/Segzyp1000/lendsqr-fe-test"
-                className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 View code
               </a>
