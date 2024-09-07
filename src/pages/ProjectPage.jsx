@@ -126,6 +126,44 @@ const ProjectPage = () => {
           </div>
         </div>
         <div className="separator"></div>
+        <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
+          <a
+            href="https://movieboxlist.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Project2} className="imgg" alt="" />
+          </a>
+          <div className="flex flex-col items-center w-1/2 mt-5">
+            <p className="text-black">
+              I developed Movie site, a responsive movie website using React,
+              Tailwind CSS, and Firebase. It features user authentication,
+              database management, and a seamless design. I demonstrated skills
+              in front-end and back-end development, responsive design, and
+              state management. It showcases my ability to create a visually
+              appealing and functional website that meets users need
+            </p>
+            <div className="flex gap-2">
+              <a
+                href="https://movieboxlist.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-bgBackground rounded p-2 mt-3 hover:bg-zinc-500"
+              >
+                Preview
+              </a>
+              <a
+                href="https://github.com/Segzyp1000/movied"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
+              >
+                View code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="separator"></div>
         <div className="mt-10 flex flex-wrap justify-center items-center  text-sm space-x-2">
           <a
             href="https://dariola-banana-bread.vercel.app/"
@@ -186,41 +224,6 @@ const ProjectPage = () => {
               </a>
               <a
                 href="https://github.com/Segzyp1000/transFlows"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
-              >
-                View code
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="separator"></div>
-        <div className="mt-10 flex flex-wrap justify-center items-center text-white text-sm space-x-2">
-          <a
-            href="https://segzyp1000.github.io/hngtask2/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={Project2} className="imgg" alt="" />
-          </a>
-          <div className="flex flex-col items-center w-1/2 mt-5">
-            <p className="text-black">
-              Created a data-driven movie website using React, JavaScript, HTML,
-              and CSS, demonstrating my skills in building responsive and
-              dynamic web applications with a focus on data visualization.
-            </p>
-            <div className="flex gap-2">
-              <a
-                href="https://segzyp1000.github.io/hngtask2/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white text-bgBackground rounded p-2 mt-3 hover:bg-zinc-500"
-              >
-                Preview
-              </a>
-              <a
-                href="https://github.com/Segzyp1000/hngtask2"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-bgBackground text-white rounded p-2 mt-3 hover:bg-gray-500"
